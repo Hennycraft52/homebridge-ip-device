@@ -1,0 +1,15 @@
+{
+  "name": "homebridge-ip-device",
+  "version": "1.0.0",
+  "description": "A Homebridge plugin for IP devices",
+  "keywords": ["homebridge-plugin", "plugin", "IP device"],
+  "author": "hennycraft",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "homepage": "https://github.com/Hennycraft52/homebridge-ip-api/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hennycraft52/homebridge-ip-api"
+  }
+}
