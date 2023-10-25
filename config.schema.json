@@ -1,0 +1,23 @@
+{
+  "pluginAlias": "homebridge-ip-device",
+  "pluginType": "platform",
+  "singular": true,
+  "schema": {
+    "type": "object",
+  "properties": {
+    "serverIP": {
+      "type": "string",
+      "description": "The IP address of the server"
+    },
+    "username": {
+      "type": "string",
+      "description": "Optional username for authentication"
+    },
+    "password": {
+      "type": "string",
+      "description": "Optional password for authentication"
+    }
+  },
+  "required": ["serverIP"],
+  "additionalProperties": false
+}
