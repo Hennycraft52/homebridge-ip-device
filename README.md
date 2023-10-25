@@ -18,7 +18,7 @@ Bevor Sie dieses Plugin installieren, stellen Sie sicher, dass Sie Homebridge be
    npm install -g homebridge-ip-device
 Fügen Sie die Konfiguration zu Ihrer config.json-Datei hinzu:
 
-´´´´json
+````json
  "platforms": [
    {
      "platform": "homebridge-ip-device",
@@ -28,7 +28,7 @@ Fügen Sie die Konfiguration zu Ihrer config.json-Datei hinzu:
      "password": "PASSWORT"
    }
  ]
-´´´´
+````
 Stellen Sie sicher, dass Sie die Konfiguration an Ihre Anforderungen anpassen.
 
 Konfiguration
