@@ -1,15 +1,28 @@
 {
   "name": "homebridge-ip-device",
-  "version": "1.0.0",
-  "description": "A Homebridge plugin for IP devices",
-  "keywords": ["homebridge-plugin", "plugin", "IP device"],
+  "version": "1.2.9",
+  "description": "Ein Homebridge-Plugin zur Integration von IP Geräten in Apple HomeKit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Test Message! Plugin is funktionell!"
+  },
+  "keywords": ["homebridge", "homebridge-plugin", "gira", "homekit"],
   "author": "hennycraft",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {  
+    "axios": ">1.0.1"
+      
   },
-  "homepage": "https://github.com/Hennycraft52/homebridge-ip-api/blob/main/README.md",
+  "engines": {
+    "node": ">=14.0.0",  
+    "homebridge": ">=1.1.0" 
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Hennycraft52/homebridge-ip-api"
-  }
+    "url": "https://github.com/Hennycraft52/homebridge-ip-device"
+  },
+  "bugs": {
+    "url": "https://github.com/Hennycraft52/homebridge-ip-device/issues/1"
+  },
+  "homepage": "https://github.com/Hennycraft52/homebridge-ip-device#readme"
 }
