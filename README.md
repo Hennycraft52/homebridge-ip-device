@@ -38,10 +38,12 @@ name	Ein Name für die Plattform.
 serverIP	Die IP-Adresse Ihres Servers.
 username	Optionaler Benutzername für die Authentifizierung.
 password	Optional das Passwort für die Authentifizierung.
-Unterstützte Geräte
-Hier können Sie eine Liste der von Ihrem Plugin unterstützten Geräte auflisten und verlinken.
-Problemlösung
-Informationen zur Problembehebung und häufig gestellten Fragen.
-Lizenz
-Dieses Plugin ist unter der MIT-Lizenz veröffentlicht.
+
+
+##Problemlösung
+Wiki (Bald verfügbar)
+
+
+##Lizenz
+Dieses Plugin ist unter der Apache 2.0-Lizenz veröffentlicht.
 
