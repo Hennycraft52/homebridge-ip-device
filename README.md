@@ -2,7 +2,7 @@
 # Homebridge IP Device Plugin
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+![License](https://img.shields.io/badge/license-Apache2.0-orange.svg)
 
 ## Beschreibung
 
