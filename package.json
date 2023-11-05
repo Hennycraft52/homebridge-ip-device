@@ -1,6 +1,6 @@
 {
   "name": "homebridge-ip-device",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Ein Homebridge-Plugin zur Integration von IP Geräten in Apple HomeKit.",
   "main": "index.js",
   "scripts": {
