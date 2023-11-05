@@ -4,20 +4,46 @@
   "singular": true,
   "schema": {
     "type": "object",
-  "properties": {
-    "serverIP": {
-      "type": "string",
-      "description": "The IP address of the server"
-    },
-    "username": {
-      "type": "string",
-      "description": "Optional username for authentication"
-    },
-    "password": {
-      "type": "string",
-      "description": "Optional password for authentication"
+    "properties": {
+      "devices": {
+        "type": "array",
+        "title": "Devices",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "title": "Name",
+              "required": true
+            },
+            "ip": {
+              "type": "string",
+              "title": "IP Address",
+              "required": true
+            },
+            "type": {
+              "type": "string",
+              "title": "Device Type",
+              "required": true
+            },
+            "password": {
+              "type": "string",
+              "title": "Password",
+              "required": true
+            },
+            "username": {
+              "type": "string",
+              "title": "Username",
+              "required": true
+            },
+            "refreshInterval": {
+              "type": "integer",
+              "title": "Refresh Interval (seconds)",
+              "minimum": 1
+            }
+          }
+        }
+      }
     }
-  },
-  "required": ["serverIP"],
-  "additionalProperties": false
+  }
 }
