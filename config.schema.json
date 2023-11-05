@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "IPDevicePlatform",
+  "pluginAlias": "homebridge-ip-device",
   "pluginType": "platform",
   "singular": true,
   "schema": {
