@@ -1,45 +1,45 @@
 {
   "pluginAlias": "IPDevicePlatform",
-  "type": "object",
-  "properties": {
-    "cameras": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "title": "Name",
-            "required": true
-          },
-          "source": {
-            "type": "string",
-            "title": "Bildquelle",
-            "enum": ["camera_live", "camera_img"],
-            "required": true
-          },
-          "ip": {
-            "type": "string",
-            "title": "IP-Adresse oder Bildpfad",
-            "required": true
-          },
-          "type": {
-            "type": "string",
-            "title": "Gerätetyp",
-            "required": true
-          },
-          "password": {
-            "type": "string",
-            "title": "Passwort"
-          },
-          "username": {
-            "type": "string",
-            "title": "Benutzername"
-          },
-          "refreshInterval": {
-            "type": "integer",
-            "title": "Aktualisierungsrate (Sekunden)",
-            "minimum": 1
+  "pluginType": "platform",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "cameras": {
+        "type": "array",
+        "title": "Kameras",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "title": "Name",
+              "required": true
+            },
+            "source": {
+              "type": "string",
+              "title": "Bildquelle",
+              "enum": ["camera_live", "camera_img"],
+              "required": true
+            },
+            "ip": {
+              "type": "string",
+              "title": "IP-Adresse oder Bildpfad",
+              "required": true
+            },
+            "username": {
+              "type": "string",
+              "title": "Benutzername"
+            },
+            "password": {
+              "type": "string",
+              "title": "Passwort"
+            },
+            "refreshInterval": {
+              "type": "integer",
+              "title": "Aktualisierungsrate (Sekunden)",
+              "minimum": 1
+            }
           }
         }
       }
