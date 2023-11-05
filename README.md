@@ -19,15 +19,7 @@ Bevor Sie dieses Plugin installieren, stellen Sie sicher, dass Sie Homebridge be
 Fügen Sie die Konfiguration zu Ihrer config.json-Datei hinzu:
 
 ````json
- "platforms": [
-   {
-     "platform": "homebridge-ip-device",
-     "name": "IP Device Platform",
-     "serverIP": "IP-ADRESSE IHRES SERVERS",
-     "username": "BENUTZERNAME",
-     "password": "PASSWORT"
-   }
- ]
+*you can config with ui*
 ````
 Stellen Sie sicher, dass Sie die Konfiguration an Ihre Anforderungen anpassen.
 
