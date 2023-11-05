@@ -18,18 +18,6 @@ Bevor Sie dieses Plugin installieren, stellen Sie sicher, dass Sie Homebridge be
    npm install -g homebridge-ip-device
 Fügen Sie die Konfiguration zu Ihrer config.json-Datei hinzu:
 
-````json
-*you can config with ui*
-````
-Stellen Sie sicher, dass Sie die Konfiguration an Ihre Anforderungen anpassen.
-
-Konfiguration
-Feld	Beschreibung
-platform	Muss auf "homebridge-ip-device" gesetzt sein.
-name	Ein Name für die Plattform.
-serverIP	Die IP-Adresse Ihres Servers.
-username	Optionaler Benutzername für die Authentifizierung.
-password	Optional das Passwort für die Authentifizierung.
 
 
 ## Problemlösung
